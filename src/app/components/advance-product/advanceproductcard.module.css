@@ -1,0 +1,59 @@
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 85%;
+  background: #29549F;
+  clip-path: path('M155 97.7272C56.9869 17.906 12 17.6812 0 26.8181V635H709V0C698 1.14212 669.084 15.6877 650.646 36C623.414 66 589.707 84.9022 530 76.8181C483 70.4545 435.136 82.2948 385.136 108C350.123 126 251 175.909 155 97.7272Z');
+  transition: .5s ease;
+  bottom:0;
+}
+
+.card:hover .overlay {
+  height: 100%;
+  clip-path:none;
+}
+
+.card:hover .product_content {
+    top: 55%;
+    bottom:0;
+}
+
+.product_content {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  padding: 0 30px;
+  z-index: 9;
+}
+
+@media (max-width: 768px) {
+.overlay {
+  height: 86%;
+}
+
+.product_content {
+  bottom: -50px;
+}
+}
+
+
+@media (max-width: 600px) {
+.product_content {
+  bottom: -30px;
+}
+}
+
+@media (max-width: 400px) {
+  .product_content {
+    bottom: -60px;
+  }
+  }

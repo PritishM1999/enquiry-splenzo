@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html,body{
+  width:100% !important;
+  overflow-x:hidden !important;
+}
+body{
+  font-family:poppins;
+  font-size:14px;
+  line-height:1rem;
+}
+
+::-webkit-input-placeholder {
+    font-family: poppins;
+  }
+  
+  :-ms-input-placeholder {
+    font-family: poppins;
+  }
+  
+  ::placeholder {
+    font-family: poppins;
+  }
+
+@font-face {
+  font-family: "Butler_Light";
+  src: url(./fonts/Butler_Light.otf);
+}
+
+@font-face {
+  font-family: Butler_Medium;
+  src: url(./fonts/Butler_Medium.otf);
+}
+
+@font-face {
+  font-family: Butler_Regular;
+  src: url(./fonts/Butler_Regular.otf);
+}
+
+.font-Butler-Normal {
+    font-family: Butler_Light;
+}
+
+.font-Butler {
+    font-family: Butler_Medium;
+}
+
+.font-Poppins {
+  font-family: Poppins;
+}
+
+.text-shadow{
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.side-space {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.header-line {
+  border-top: 1px solid #d9d9d9;
+}
+
+button:focus {
+  outline: 1px dotted;
+  outline: none !important;
+}
+
+.common-heading h3 {
+  color: #333;
+  font-family: Butler_Light ;
+  font-size: 24px ;
+  font-weight: 600 ;
+  letter-spacing: 2px ;
+  line-height: 36px ;
+  text-transform: uppercase;
+  width: 100%;
+  position: relative;
+  top: 0;
+}
+
+.line {
+  border-top: 3px solid #DFDFDF;
+  float: right;
+  width: 100%;
+  padding:10px 0;
+}
+
+.page-item.active .page-link {
+  background-color: #29549f !important;
+  border-color: #29549f !important;
+}
+.page-link {
+  color: #29549f !important;
+}
+
+.page-item.active .page-link {
+  color: #fff !important;
+}
+.page-link:focus {
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 0%) !important;
+}
+
+.number-counter li.active {
+  color: #ff0000; 
+  transition: color 0.5s; 
+}
+
+@media (min-width: 1550px) {
+  .side-space {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+}
+
+@media (max-width: 770px) {
+  .common-heading h3 {
+      font-size: 20px;
+      line-height: 28px;
+  }
+}
+
+@media (max-width: 700px) {
+  .for-sm-none{
+  display:none;
+  }
+}
+

@@ -1,0 +1,142 @@
+
+.swiper-wrapper {
+  padding: 10px 0;
+}
+.product-images-slider .swiper-slide {
+  padding-top: 70%;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+  max-width: 100%;
+}
+.product-images-slider .swiper-slide img {
+  position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin: 0 auto;
+    right: 0;
+    padding: 20px;
+}
+.product-images-slider .swiper-button-prev {
+  left: 30;
+  color: #000;
+  font-weight:bold;
+}
+.product-images-slider .swiper-button-next {
+  right: 30;
+  color: #000;
+  font-weight:bold;
+}
+.product-images-slider-thumbs .swiper-slide {
+  cursor: pointer;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+}
+.product-images-slider-thumbs .swiper-slide-thumb-active {
+  border-color: #37abe1;
+}
+
+
+.product-images-slider-thumbs-wrapper {
+  width: 100%;
+  padding-top: 65%;
+  overflow: hidden;
+  position: relative;
+}
+.product-images-slider-thumbs-wrapper img {
+  position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    right: 0;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.product-image{
+position: relative;
+overflow: hidden;
+}
+
+.product-images-slider-thumbs .swiper-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* styles.css */
+
+.mySwiper2 {
+  width: 90%;
+  order: 2;
+}
+
+
+.mySwiper {
+  width: 10%; 
+  order: 1;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-size:24px !important;
+  color:#333;
+}
+
+.mySwiper .swiper-slide {
+  width: 100%;
+  height: 55px !important; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.mySwiper .swiper-slide-active {
+  color: #333;
+}
+
+
+@media (max-width:1180px) {
+.mySwiper {
+  width: 15%;
+}
+
+.mySwiper2 {
+  width: 80%;
+}
+}
+
+@media (max-width:768px) {
+  .mySwiper2 {
+      width: 85%;
+  }
+
+  .mySwiper {
+    width: 10%;
+}
+}
+
+@media (max-width:600px) {
+  .mySwiper {
+    width: 15%;
+  }
+  
+  .mySwiper2 {
+    width: 80%;
+  }
+  }
+  
+
+@media (max-width:430px) {
+
+.product-images-slider .swiper-slide {
+  padding-top: 100%;
+}
+
+.product-images-slider-thumbs-wrapper img {
+  padding: 0px;
+}
+
+}

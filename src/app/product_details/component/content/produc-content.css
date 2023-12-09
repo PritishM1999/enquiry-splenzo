@@ -1,0 +1,130 @@
+
+.product-content h3 {
+    font-size: 20px;
+    color: #333;
+    line-height: 30px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.product-content h4 {
+    font-size: 16px;
+    color: #333;
+    line-height: 30px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom:0;
+}
+
+.product-content p {
+    font-size: 14px;
+    margin: 0;
+    line-height: 24px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #666;
+}
+
+.btn-wishlist {
+    margin: 20px 0;
+}
+
+.btn-wishlist a {
+    color: #5f5f5f;
+    font-weight: 500;
+    border: 1px solid #d7d7d7a6;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.product_socials_label {
+    font-size: 18px;
+    color: #5f5f5f;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.product-description div span {
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+}
+
+.show-more-less-clickable {
+    color: #009e00 !important;
+    font-weight: 600;
+    font-size: 16px !important;
+    cursor:pointer;
+}
+
+.socials-inline ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.product_socials {
+    display: flex;
+    align-items: center;
+}
+.socials-inline ul li {
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+.socials-inline ul li a {
+    text-decoration: none;
+    color: #5f5f5f;
+}
+
+.product-rating {
+    background: #f9f5f6;
+    width: fit-content;
+    color: #333;
+    padding: 3px 4px;
+    text-align: center;
+    border: 1px solid #f1eded;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.range:hover h4 ,.range:hover p{
+    color:#fff !important;
+}
+
+
+.product-content h3 {
+    font-size: 20px;
+    color: #333;
+    line-height: 30px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+@media (max-width:1450px) {
+    .product-content h3 {
+    font-size: 18px;
+}
+}
+
+
+@media (max-width:1200) {
+    .product-content h3 {
+    font-size: 16px;
+}
+}
+
+
+@media (max-width:768) {
+.product-content p, .product-description div span {
+    font-size: 12px !important;
+    line-height:20px;
+}
+
+.product-content h4 {
+    font-size: 14px !important;
+}
+}

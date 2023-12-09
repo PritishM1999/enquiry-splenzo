@@ -1,0 +1,17 @@
+.glass_text {
+  font-size: 32px;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.1));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: glassAnimation 2s linear infinite;
+}
+
+@keyframes glassAnimation {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}

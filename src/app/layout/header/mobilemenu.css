@@ -1,0 +1,252 @@
+a:hover{
+ text-decoration:none;
+}
+
+
+.all-products-dropdown ul li,.nav li ul li{
+  position: relative;
+  padding: 4px 0px;
+  display: block;
+  text-align: left;
+}
+
+.all-products-dropdown>ul>li>div ul li{
+  position: static;
+}
+
+.all-products-dropdown ul li a,.nav li ul li a {
+  color: #020202;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+
+}
+
+
+.all-products-dropdown ul li div ul li a{
+     font-size: 14px;
+     line-height: 1.6;
+}
+
+.all-products-dropdown ul li a i {
+  position: absolute;
+  right: 0;
+  top: 6px;
+  font-size: 12px;
+  color:grey;
+}
+
+.all-products-dropdown ul li a:hover i{
+  color:#000;
+} 
+
+
+.all-products-dropdown ul li ul li:hover ,.nav li ul li:hover{
+  cursor: pointer;
+  transition: all .5s;
+  border-bottom:1px solid #333;
+}
+
+
+/* .all-products-dropdown ul li ul li :after,.nav li ul li :after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  content: "";
+  background-color: #131313;
+  transition: transform .3s cubic-bezier(.215, .61, .355, 1);
+  transform-origin: right center;
+  transform: scaleX(0);
+} */
+
+.all-products-dropdown ul li ul>li:hover>a:after,.nav li ul li:hover a:after{
+  transform-origin: left center;
+  transform: scaleX(1);
+}
+
+.all-products-dropdown:hover>ul>li>div,.nav li:hover div{
+  visibility: visible;
+  opacity: 1;
+  transition: all .15s;
+}
+
+.all-products-dropdown  ul li>div,.nav li div {
+  position: absolute;
+  left: 0;
+  padding-top: 10px;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 99;
+  transition: all .15s;
+  
+}
+
+.all-products-dropdown>ul>li>div>ul>li>div{
+  position: absolute;
+  left: 0;
+  padding-top: 30px;
+ visibility: hidden;
+  opacity: 0;
+  z-index: 99;
+  transition: all .15s;
+}
+
+.all-products-dropdown>ul>li>div>ul>li:hover>div,.all-products-dropdown>ul>li>div>ul>li>div>ul>li:hover>div{
+  visibility: visible;
+  opacity: 1;
+  transition: all .15s;
+}
+
+
+.all-products-dropdown ul li div>ul>li:hover>div{
+  visibility: visible;
+  opacity: 1;
+  transition: all .15s;
+}
+
+.all-products-dropdown ul li div>ul>li>div {
+  position: absolute;
+  top: 0px;
+  left: 100%;
+}
+
+.all-products-dropdown ul li div>ul>li>div>ul>li>div {
+  left: 90%;
+  width: 235px;
+}
+.all-products-dropdown ul li div>ul>li>div>ul>li>div>div{
+  height:100%;
+}
+
+
+.all-products-dropdown  ul li>div ul,.nav li ul{
+  background: #EDEDED;
+  width:235px;
+  height: 100%;
+}
+
+.all-products-dropdown  ul li>div ul li,.nav li ul{
+  padding: 10px 15px;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.all-products-dropdown  ul li>div ul>li>div>ul{
+  width:200px;
+}
+
+@media (max-width: 1260px){
+
+.all-products-dropdown ul li div ul li a {
+  font-size: 12px;
+}
+
+.all-products-dropdown ul li a, .nav li ul li a {
+  font-size: 12px !important;
+}
+}
+
+/* for mobile device */
+
+.sidepanel {
+  position: fixed;
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(255 255 255 / 95%);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  z-index:999;
+  
+}
+
+.sidepanel.active {
+  width: 95%;
+}
+
+.sidepanel a {
+    padding: 12px 0 12px 10px;
+    font-size: 14px;
+    transition: 0.3s;
+    border-bottom: 1px solid #d1d1d16b;
+    font-family: 'Poppins';
+    display: flex;
+    font-family: poppins;
+    color: #333;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.sidepanel a:hover {
+  color: #333;
+}
+
+.sidepanel .closebtn1 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px !important;
+  border-bottom: none;
+  font-weight: 500;
+  width: 30px;
+  height: 30px;
+  background: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  border-radius: 4px;
+}
+
+.openbtn {
+  font-size: 14px;
+  cursor: pointer;
+  color: #333;
+  border: none;
+  font-weight:500;
+}
+
+.submenu-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* ProductMenu.css */
+
+/* ProductMenu.css */
+
+.category-images {
+  position: relative;
+}
+
+.category-image-container {
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 100%; 
+  background-color: #efefef;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.category-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+@media (max-width: 400px){
+.openbtn {
+  font-size: 12px;
+  font-weight:500;
+}
+}

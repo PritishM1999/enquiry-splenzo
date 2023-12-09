@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="8px" viewBox="0 0 16 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>dropdown-tip</title>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle" opacity="0.600000024" x="0.160968122" y="5.68434189e-14" width="16" height="8"></rect>
+            <polygon id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" points="15.9965098 8 -0.00371162232 8 7.99639909 0.728176443"></polygon>
+            <polygon id="Path" fill="#BBBBBB" fill-rule="nonzero" points="-0.00022143047 7.25939431 7.99651246 0.00935885236 15.9965098 7.25932453 15.324992 8.00031295 7.99661446 1.358 0.671450346 8.00024317"></polygon>
+            <polygon id="Path-2" fill="#BBBBBB" transform="translate(0.335614, 7.629819) scale(-1, 1) translate(-0.335614, -7.629819) " points="0.671228916 7.26031341 5.68434189e-14 7.99932407 0.671228916 7.99932407"></polygon>
+            <polygon id="Path-2" fill="#BBBBBB" points="15.9965826 7.25828888 15.3253537 7.99729954 15.9965826 7.99729954"></polygon>
+        </g>
+    </g>
+</svg>

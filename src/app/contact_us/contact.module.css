@@ -1,0 +1,84 @@
+.contact_box {
+  border-right: 5px solid #29549f;
+  height: 450px;
+}
+
+.contact_text h3 {
+  font-size: 70px;
+  text-align: right;
+  margin-right: 30px;
+  line-height: 62px;
+  font-family: "Butler_Light";
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+.text_highlight {
+  color: #29549f;
+}
+
+.reg_box {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+  margin-right: 30px;
+}
+.reg_box h3 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 1500px) {
+  .contact_text h3 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 1430px) {
+  .contact_text h3 {
+    font-size: 55px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 1330px) {
+  .contact_text h3 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .contact_text h3 {
+    font-size: 48px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 1160px) {
+  .contact_text h3 {
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .contact_text h3 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 768) {
+  .contact_box {
+    height: fit-content;
+  }
+}
+
+@media (max-width:400px) {
+  .contact_text h3 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
